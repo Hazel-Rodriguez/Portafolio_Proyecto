@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    --color-primario: #5F5D9C;
+    --color-primario: #6663adf6;
     --color-secundario: #6196A6;
-    --color-terciario: #72cf9995;
+    --color-terciario: #ab8bd59a;
     --coolor-hover: #F4EDCC;
-    --color-header: #5490bfc6;
+    --color-header:#72cf9992 ;
     --color-header-texto: #393692;
-    --color-header-hover:#4f8595;
+    --color-header-hover:#72cf995c;
 
     --fuente-principal: 'Montserrat', sans-serif;
     --fuente-secundaria: 'Krona One', sans-serif;
