@@ -4,8 +4,11 @@
 :root{
     --color-primario: #5F5D9C;
     --color-secundario: #6196A6;
-    --color-terciario: #A4CE95;
+    --color-terciario: #72cf9995;
     --coolor-hover: #F4EDCC;
+    --color-header: #5490bfc6;
+    --color-header-texto: #393692;
+    --color-header-hover:#4f8595;
 
     --fuente-principal: 'Montserrat', sans-serif;
     --fuente-secundaria: 'Krona One', sans-serif;
@@ -26,24 +29,32 @@ body{
 }
 
 .header{
-    padding: 2% 0% 0% 15%;
+    padding: 0%;
+    
 }
 
 .header__menu{
     display: flex;
-    gap: 80px;
+    background-color: var(--color-header); 
+    text-align: center;
+    padding: 0% 0% 0% 13.5%;
 }
 
 .header__menu__link{
     font-family: var(--fuente-principal);
-    font-size: 1.5rem;
-    font-weight: 630;
-    color: var(--color-secundario);
-    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--color-header-texto);
+    text-decoration: none; 
+    padding: 2rem 4rem 2rem 4%;
+}
+
+.header__menu__link:hover{
+    background-color: var(--color-header-hover);
 }
 
 .presentacion{
-    padding: 5% 15%;
+    padding: 5% 13%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,7 +127,7 @@ body{
     color: var(--color-primario);
     text-align: center;
     font-family: var(--fuente-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
